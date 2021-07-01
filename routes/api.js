@@ -1,5 +1,4 @@
 const router = require("express").Router();
-const mongoose = require("mongoose");
 const Workout = require("../models/workout.js");
 
 // Create new workout
