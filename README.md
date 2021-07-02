@@ -26,9 +26,7 @@
   * node server.js
 
   ## Screenshots
-  ![picture](public/assets/img/Screenshot1.png)]
-  ![picture](public/assets/img/Screenshot2.png)]
-  ![picture](public/assets/img/Screenshot3.png)]
+  ![picture](public/img/Screenshot1.png)
 
   ## Usage Guidelines
   * To see deployed app:
