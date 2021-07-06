@@ -40,6 +40,14 @@ router.get("/api/workouts", (req, res) => {
 		});
 });
 
+router.get("/api/workouts/stats", (req, res) => {
+	Workout.find({}).then(dbWorkout => {
+		res.json(dbWorkout);
+	}).catch(err => {
+		res.status(400).json(err);
+	});
+});
+
 router.get("/api/workouts/range", (req, res) => {
 	Workout.aggregate([{
       $addFields: {
