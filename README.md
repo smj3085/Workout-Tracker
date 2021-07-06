@@ -23,10 +23,12 @@
 
   ## Test Instructions
   * npm run seed
-  * node server.js
+  * npm start
 
   ## Screenshots
   ![picture](public/img/Screenshot1.png)
+  ![picture](public/img/Screenshot2.png)
+
 
   ## Usage Guidelines
   * To see deployed app:
